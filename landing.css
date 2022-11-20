@@ -1,0 +1,113 @@
+html{
+    background-color: black;
+}
+
+
+.header{
+    background-color: #A23FE0;
+    color:white;
+    width:100%;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height:20px;
+    background-color: #C185E6;
+    text-align: center;
+    color: white;
+}
+ 
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    color:black;
+    background-color: #E5E7D7;
+}
+
+.article{
+    background-color: #7C30AB;
+    color:black;
+    width: 400px;
+    height: 450px;
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    border-width: thin;
+    border-style: dotted;
+    border-color: #C185E6;
+    color:#E5E7D7;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:3px;
+  z-index: 2;
+}
+
+.containerbox {
+
+    position: fixed;
+    right:420px;
+    top:100px;
+    height:400px;
+    width:400px;
+    background-color: #513861;
+    color: white;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-width: thin;
+    border-style: dotted;
+    border-color: #C185E6
+  z-index: 1;
+}
+
+.image {
+    background-color:#D6DFE4;
+    height: 300px;
+    margin:10px;
+    background-size: cover;
+}
+
+.imageone {
+    background-image: url('https://th.bing.com/th/id/R.b9f79687c61a37099b4171ffd5cdb997?rik=BvsVwTc7kWsInA&pid=ImgRaw&r=0');
+}
+
+
+.aside{
+    background-color:#7C30AB ;
+    width: 400px;
+    height: 450px;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    color: white;
+    border-width: thin;
+    border-style: dotted;
+    border-color:#C185E6 ;    
+    padding:2px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 3px;
+  z-index: 2;
+}
+
+.aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.footer{
+    position: absolute;
+    bottom: 1px;
+    height: 2=5px;
+    width: 100%;
+    text-align: center;
+    background-color:#A23FE0;
+
+}
